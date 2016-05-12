@@ -3,6 +3,11 @@
   "React ES6 Component with Constructor":
     "prefix": "rcc",
     "body": """
+      /**
+      * @providesModule ${1:MyComponent}
+      * @flow
+      */
+      
       import React, {
         PropTypes,
       } from 'react';
@@ -31,6 +36,11 @@
   "React ES6 Component":
     "prefix": "rc",
     "body": """
+      /**
+      * @providesModule ${1:MyComponent}
+      * @flow
+      */
+      
       import React, {
         PropTypes,
       } from 'react';
@@ -55,6 +65,11 @@
   'React ES6 Functional Component':
     'prefix': 'rfunc'
     'body': """
+      /**
+      * @providesModule ${1:MyComponent}
+      * @flow
+      */
+      
       import React, {
         PropTypes,
       } from 'react';
